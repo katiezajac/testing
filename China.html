@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="Thu, 05 Dec 2019 16:55:23 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>China</title>
+    <style type="text/css">
+    body {
+      color:#000000;
+      background-color:#FFFFFF;
+      background-image:url('');
+	  background-repeat:repeat;
+	  font-family: Century Gothic, sans-serif;
+	  text-align: center;
+	  }
+	.header {
+	width:auto;
+	height:250px;
+	padding: 0px;
+	border-radius: 25px;
+	}
+	.box {
+	background-color: #737373;
+	width: auto;
+	height: 100%;
+	padding: 20px;
+	border-color: #000000;
+	border-width: 100px;
+	border-stlye: solid;
+	}
+	.box2 {
+	width: auto;
+	height: 100%;
+	padding: 20px;
+	border-color: #000000;
+	border-width: 100px;
+	border-stlye: solid;
+	}
+	button {
+	font-family: Century Gothic, sans serif;
+    background-color: #e6b3cc;
+	border-style: double;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 5px;
+    cursor: pointer;
+	}
+    a  { color:#000000; }
+    a:visited { color:#000000; }
+    a:hover { color:#000000; }
+    a:active { color:#000000; 
+	}
+	h1 {
+	font-family:copperplate;
+	font-size:x-large;
+	text-decoration:underline;
+	}
+	h2 {
+	font-family:brush script MT;
+	font-size:xx-large;
+	text-decoration:underline;
+	}
+	.chip{
+  display: inline-block;
+  padding: 0 25px;
+  height: 30px;
+  font-size: 10px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #000;
+}
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.hvr-bounce-in {
+  padding: 5px 10px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  background-color: #e6b3cc;
+}
+.column {
+  float: left;
+  width: 22%;
+  padding: 15px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+.footer{
+	background-color: #000000;
+	text-align: center;
+	padding: 5px;
+	position: sticky;
+	text-align: center;
+}
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.slideshow-container {
+  position: relative;
+}
+.mySlides {
+  display: none;
+  padding: 10px;
+  text-align: center;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.dot-container {
+    text-align: center;
+    padding: 5px;
+    background: ddd;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #e6b3cc;
+}
+q {font-style: italic;
+font-family:Book Antiqua, serif;
+font-size: large;
+ }
+.author {color: #000;
+font-family:Book Antiqua, serif;
+}
+.reveal{
+	width:100%;
+	text-align:left;
+	background-color: #fff;
+}
+.hvr-bubble-bottom {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+}
+.hvr-bubble-bottom:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  border-style: solid;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  left: calc(50% - 10px);
+  bottom: 0;
+  border-width: 10px 10px 0 10px;
+  border-color: #e6b3cc transparent transparent transparent;
+}
+.hvr-bubble-bottom:hover:before, .hvr-bubble-bottom:focus:before, .hvr-bubble-bottom:active:before {
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px);
+}
+.slideshow-container {
+  width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #000;
+  background-color:#f2f2f2;
+  font-size: 15px;
+  padding: 0px 9px;
+  position: absolute;
+  width: 965px;
+  text-align: center;
+  bottom: 1px;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.hvr-bounce-to-left {
+font-family: Century Gothic, sans serif;
+    background-color: none;
+	border-color:#ffcce6;
+	border-style: double;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 15px;
+    margin: 5px 5px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-to-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ffcce6;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-bounce-to-left:hover, .hvr-bounce-to-left:focus, .hvr-bounce-to-left:active {
+  color: white;
+}
+.hvr-bounce-to-left:hover:before, .hvr-bounce-to-left:focus:before, .hvr-bounce-to-left:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+	</style>
+  </head>
+  <body>
+  <div class="box">
+  <a href="C:\Users\kzajac\Desktop\HTML_Training\test homepage.html" class="hvr-bounce-to-left">Back to Home</a>
+  </div>
+<div class="header">
+<img src="C:\Users\kzajac\Desktop\HTML_Training\5.jpg" width="100%" height="250">
+</div>
+<h2>February 15 to 22, 2020</h2>
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <img src="C:\Users\kzajac\Desktop\HTML_Training\maxresdefault.jpg" width="100%" height="300">
+  <div class="text" style="text-background-color"><q>The journey of a thousand miles begins with a single step.</q><p class="author">~Lao Tzu</p></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="C:\Users\kzajac\Desktop\HTML_Training\download.jpg" width="100%" height="250">
+  <div class="text" style="text-background-color"><q>Wherever you go becomes a part of you somehow</q><p class="author">~Anita Desai</p></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="C:\Users\kzajac\Desktop\HTML_Training\beijing (2).jpg" width="100%" height="250">
+  <div class="text" style="text-background-color"><q>I travel not to go anywhere but to go.</q><p class="author">~Robert Louis Stevenson</p></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<br />
+<button onclick="myFunction()" class="hvr-bubble-bottom">Blogs</button>
+<div id="reveal" style="display:none;">
+<h1>February, 22</h1>
+Blog & travel back
+<h1>February, 21</h1>
+Blog
+<h1>February, 20</h1>
+Blog
+<h1>February, 19</h1>
+Blog
+<h1>February, 18</h1>
+Blog
+<h1>February, 17</h1>
+Day 2
+<h1>February, 16</h1>
+Day 1
+<h1>February, 15</h1>
+Travel time!
+<h1>February, 14</h1>
+Pre trip blog
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("reveal");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<br />
+<div class="footer">
+<div class="chip">
+<img src="C:\Users\kzajac\Desktop\HTML_Training\facebook.jpg" width="96" height="96">
+<a href="https://www.facebook.com/kate.zajac.75"></a>
+</div>
+<div class="chip">
+<img src="C:\Users\kzajac\Desktop\HTML_Training\twitter.jpg" width="96" height="96">
+<a href="https://twitter.com/bookish_kitkat"></a>
+</div>
+<div class="chip">
+<img src="C:\Users\kzajac\Desktop\HTML_Training\instagram.jpg" width="25" height="25">
+<a href="https://www.instagram.com/bookish.kitkat/"></a>
+</div>
+</div>
+  </body>
+</html>

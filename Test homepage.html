@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="Thu, 05 Dec 2019 16:10:42 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Wanderlust Around the World</title>
+    
+    <style type="text/css">
+    <!--
+    body {
+      color:#000000;
+      background-color:#FFFFFF;
+      background-image:url('');
+	  background-repeat:repeat;
+	  font-family: Century Gothic, sans-serif;
+	  text-align: center;
+	  }
+	.header {
+	width:auto;
+	height:250px;
+	padding: 0px;
+	border-radius: 25px;
+	}
+	.box {
+	background-color: #737373;
+	width: auto;
+	height: 100%;
+	padding: 20px;
+	border-color: #000000;
+	border-width: 100px;
+	border-stlye: solid;
+	}
+	.box2 {
+	width: auto;
+	height: 100%;
+	padding: 20px;
+	border-color: #000000;
+	border-width: 100px;
+	border-stlye: solid;
+	}
+	button {
+	font-family: Century Gothic, sans serif;
+    background-color: #e6b3cc;
+	border-style: double;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 5px;
+    cursor: pointer;
+	}
+    a  { color:#000000; }
+    a:visited { color:#000000; }
+    a:hover { color:#000000; }
+    a:active { color:#000000; 
+	}
+	h1 {
+	font-family:copperplate;
+	font-size:x-large;
+	text-decoration:underline;
+	}
+	h2 {
+	font-family:brush script MT;
+	font-size:xx-large;
+	text-decoration:underline;
+	}
+	.chip{
+  display: inline-block;
+  padding: 0 25px;
+  height: 30px;
+  font-size: 10px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #000;
+}
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.hvr-bounce-in {
+  padding: 5px 10px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  background-color: #e6b3cc;
+}
+.column {
+  float: left;
+  width: 22%;
+  padding: 15px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+.footer{
+	background-color: #000000;
+	text-align: center;
+	padding: 5px;
+	position: sticky;
+	text-align: center;
+}
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.slideshow-container {
+  position: relative;
+}
+.mySlides {
+  display: none;
+  padding: 10px;
+  text-align: center;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.dot-container {
+    text-align: center;
+    padding: 5px;
+    background: ddd;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #e6b3cc;
+}
+q {font-style: italic;
+font-family:Book Antiqua, serif;
+font-size: large;
+ }
+.author {color: #000;
+font-family:Book Antiqua, serif;
+}
+.reveal{
+	width:100%;
+	text-align:left;
+	background-color: #fff;
+}
+.hvr-bubble-bottom {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+}
+.hvr-bubble-bottom:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  border-style: solid;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  left: calc(50% - 10px);
+  bottom: 0;
+  border-width: 10px 10px 0 10px;
+  border-color: #e6b3cc transparent transparent transparent;
+}
+.hvr-bubble-bottom:hover:before, .hvr-bubble-bottom:focus:before, .hvr-bubble-bottom:active:before {
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px);
+}
+.hvr-float-shadow {
+background:#e6b3cc;
+  padding: 5px 5px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-float-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+}
+    </style>
+  </head>
+  <body>
+<div class="box">
+<a href="C:\Users\kzajac\Desktop\HTML_Training\test homepage.html" class="hvr-bounce-in">Home</a>
+<a href="C:\Users\kzajac\Desktop\HTML_Training\about.html" class="hvr-bounce-in">About</a>
+<a href="C:\Users\kzajac\Desktop\HTML_Training\contact.html" class="hvr-bounce-in">Contact</a>
+</div>
+<div class="header">
+<img src="C:\Users\kzajac\Desktop\HTML_Training\test header.jpg" width="100%" height="250" border-radius="25">
+</div>
+<h2>Welcome to Wanderlust Around the World</h2>
+<div class="box2">
+<div class="slideshow-container">
+<div class="mySlides">
+  <q>We lead strange lives, chasing our dreams around from place to place.</q>
+  <p class="author">~Erin Morgenstern</p>
+</div>
+<div class="mySlides">
+  <q>Push yourself. Don't settle. Just live well. Just live./q>
+  <p class="author">~Jojo Moyes</p>
+</div>
+<div class="mySlides">
+  <q>The Wanderlust has got me... by the belly-aching fire</q>
+  <p class="author">~Robert W. Service</p>
+</div>
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</div>
+<div class="row">
+<div class="column">
+<a href="C:\Users\kzajac\Desktop\HTML_Training\seattle.html" class="hvr-grow-shadow">Seattle
+<br />
+<img src="C:\Users\kzajac\Desktop\HTML_Training\seattle needle.jpg" width="150" height="150"></a>
+</div>
+<div class="column">
+<a href="C:\Users\kzajac\Desktop\HTML_Training\china.html" class="hvr-grow-shadow">Beijing
+<br />
+<img src="C:\Users\kzajac\Desktop\HTML_Training\beijing.jpg" width="150" height="150"></a>
+</div>
+<div class="column">
+<a href="C:\Users\kzajac\Desktop\HTML_Training\france.html" class="hvr-grow-shadow">Paris
+<br />
+<img src="C:\Users\kzajac\Desktop\HTML_Training\eiffel.jpg" width="150" height="150"></a>
+</div>
+<div class="column">
+<a href="C:\Users\kzajac\Desktop\HTML_Training\poland.html" class="hvr-grow-shadow">Poland
+<br />
+<img src="C:\Users\kzajac\Desktop\HTML_Training\castle.jfif" width="150" height="150"></a>
+</div>
+</div>
+<br />
+<a href="C:\Users\kzajac\Desktop\HTML_Training\photo gallery.html" class="hvr-float-shadow">Photo Gallery</a>
+<br /> <br />
+<button onclick="myFunction()" class="hvr-bubble-bottom">Blogs</button>
+<div id="reveal" style="display:none;">
+<h1>December, 30</h1>
+Two more days until the new year is here and I am already anxiously thrilled! My passport has finally arrived and while I've been told it is weird, I find it absolutely adorable. Possibly because it brings promises of freedom, adventure, and lots and lots and lots of food.... Either way, we are just two weeks away from the first trip: Seattle! Yes, a US city, not very exciting but this will be my first trip traveling on my own. My boyfriend, Ander and I will travel together, but I will travel by myself on the way back. EEK! What could possibly go wrong? Well, let's see: I loose my tickets, get lost in the airport, grab the wrong plane, never make it to the gate, be abducted by crazy Seattle kidnappers....my brain seriously does not shut up. Either way, we are two weeks away from coffee, rainy weather, and a ferry. Yes, a ferry! Did I mention I've never been on a boat before either?? On top of prepping for trip number one, dates have been finalized for Poland! The trip that started this all will be my last trip for 2020; so to accomplish final dates and bookings is a huge check in my book. I will be traveling on November 20th to the 30th (flight days, yay.) and am incredibly excited to explore six different cities. Oh course, what do I choose to with my time now? Look at how I can finagle my work schedule to squeeze in tiny summer trips; as if I am not travelling enough for the new year! Like seriously, a weekend in Paris, Amsterdam, Prague, Barcelona...I can't decide! I want to do a four day trip the weekend of July 4th (cause who doesn't want to spend the American Independence Day in another country?!). My hope is to find a trip in which I fly out Thursday evening (July 2nd) and return Monday afternoon (July 6th).
+<h1>December, 24</h1>
+A little about me as I continue packing and planning. I am a working student with a huge passion in literature and history. I've been "working" on a double major in Politics and History for a while now (I say "working" because I've had to walk away from a lot of schooling due to mental health issues), but I've felt something missing from my studies. The first adventure I have planned is a short, weekend trip to Seattle. Yes, that doesn't compare to the other trips planned for the rest of the year but the important item is baby steps! I struggle with a lot of anxiety. Hell, I had an anxiety attack and complete meltdown in the passport agency parking lot over a grumpy boomer! And I'm expecting myself to be fine abroad?! Fuck no! Here's the thing, my goal with this blog is to not only track my attitude and wonders along the way, cause hey, its really meant for me right? But also share what it is like to travel with anxiety and any tips and tricks I find along the way. So are we ready? No, but let's go!
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("reveal");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="footer">
+<div class="chip">
+<img src="C:\Users\kzajac\Desktop\HTML_Training\facebook.jpg" width="96" height="96">
+<a href="https://www.facebook.com/kate.zajac.75"></a>
+</div>
+<div class="chip">
+<img src="C:\Users\kzajac\Desktop\HTML_Training\twitter.jpg" width="96" height="96">
+<a href="https://twitter.com/bookish_kitkat"></a>
+</div>
+<div class="chip">
+<img src="C:\Users\kzajac\Desktop\HTML_Training\instagram.jpg" width="25" height="25">
+<a href="https://www.instagram.com/bookish.kitkat/"></a>
+</div>
+</div>
+</body>
+</html>

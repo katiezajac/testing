@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Japan</title>
+<style type="text/css">
+	body {
+      color:#000000;
+      background-color:#ffffff;
+      background-image:url('Background Image');
+      background-repeat:no-repeat;
+	  font-family: Century Gothic, sans-serif;
+	  font-weight:lighter;
+    }
+	.header {
+	width:auto;
+	height:200px;
+	text-align: center;
+	padding: 0px;
+	font-family: Century Gothic, sans-serif;
+	font-style:oblique;
+	font-weight: bolder;
+	font-size: 160%;
+	font-color:#000000;
+	}
+	.button {
+	font-family: Century Gothic, sans serif;
+    background-color: none;
+	border-color:#ffcce6;
+	border-style: double;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 5px;
+    cursor: pointer;
+	}
+    a  { color:#FFFFFF; }
+    a:visited { color:#FFFFFF; }
+    a:hover { color:#5d0d0d; }
+    a:active { color:#FFFFFF; 
+	}
+	.box {
+	background-color: #737373;
+	width: auto;
+	height: auto;
+	padding: 20px;
+	border-color: #000000;
+	border-width: 100px;
+	border-stlye: solid;
+	text-align: center;
+	font-weight:lighter;
+	font-size:x-large;
+	font-family:Century Gothic, sans-serif;
+	font-color: #d9d9d9;
+	}
+	h1 {
+	font-family:fantasy;
+	font-size:xx-large;
+	text-decoration:underline;
+	}
+	.column {
+	float: right;
+	width: 25%;
+	padding: 10px;
+	height: 100%;
+	background-color:#ffcce6;
+	}
+	.border {
+	float: left;
+	width: 70%;
+	padding: 5px;
+	height: 100%;
+	border: 5px;
+	}
+	h1 {
+	font-family:fantasy;
+	font-size:xx-large;
+	text-decoration:underline;
+	}
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  max-height: 500px;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.hvr-bounce-to-left {
+font-family: Century Gothic, sans serif;
+    background-color: none;
+	border-color:#ffcce6;
+	border-style: double;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 15px;
+    margin: 5px 5px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-to-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ffcce6;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-bounce-to-left:hover, .hvr-bounce-to-left:focus, .hvr-bounce-to-left:active {
+  color: white;
+}
+.hvr-bounce-to-left:hover:before, .hvr-bounce-to-left:focus:before, .hvr-bounce-to-left:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+	</style>
+</head>
+<body>
+<div class="header">
+<img src="C:\Users\kzajac\Desktop\HTML_Training\3.jpg" width="100%" height="250">
+</div>
+<br /><br />
+<div class="box">
+2021 <br />
+<a href="C:\Users\kzajac\Desktop\HTML_Training\Travel Homepage.html" class="hvr-bounce-to-left">Back to Homepage</a>
+</div>
+<br></br>
+<div class="column">
+<form action="mailto:katiezajac95@gmail.com" method="post" enctype="text/plain">
+Name:<input type="text" name="name"> <br />
+Email:<input type="text" name="email"> <br />
+Comment:<textarea type="text" rows="4" cols="50"></textarea> <br />
+<input type="submit" value="post">
+Comments will be added within two days.
+</form>
+<p><u>Comments</u></p>
+<p>Example of comment <br />
+~Any</p>
+<p>Follow me</p>
+<a href="https://www.facebook.com/kate.zajac.75">
+<img src="C:\Users\kzajac\Desktop\HTML_Training\facebook.jpg" width="25" height="25" padding="15">
+</a>
+<a href="https://twitter.com/bookish_kitkat">
+<img src="C:\Users\kzajac\Desktop\HTML_Training\twitter.jpg" width="25" height="25" padding="15">
+</a>
+<a href="https://www.instagram.com/bookish.kitkat/">
+<img src="C:\Users\kzajac\Desktop\HTML_Training\instagram.jpg" width="25" height="25" padding="15">
+</a>
+</div>
+<div class="border">
+<p> Date, Time</p>
+<p> Blog Entry 1</p>
+<p> Date, Time</p>
+<p> Blog Entry 2</p>
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <img src="C:\Users\kzajac\Desktop\HTML_Training\japan mountain.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="C:\Users\kzajac\Desktop\HTML_Training\tokyo.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="C:\Users\kzajac\Desktop\HTML_Training\japanese food.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<p> Date, Time</p>
+<p>Blog entry 3</p>
+</div>
+</body>
+</html>
